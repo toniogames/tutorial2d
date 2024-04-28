@@ -48,7 +48,7 @@ animations = [{
 radius = 37.0
 height = 98.0
 
-[node name="Mob" type="RigidBody2D"]
+[node name="Mob" type="RigidBody2D" groups=["mobs"]]
 collision_mask = 0
 gravity_scale = 0.0
 script = ExtResource("1_rlicr")
@@ -58,7 +58,7 @@ metadata/_edit_group_ = true
 scale = Vector2(0.75, 0.75)
 sprite_frames = SubResource("SpriteFrames_n5s8g")
 animation = &"walk"
-frame_progress = 0.90063
+frame_progress = 0.853487
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 rotation = 1.5708
